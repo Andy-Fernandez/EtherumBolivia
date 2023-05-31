@@ -1,0 +1,61 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+*.bak
+
+# Ignorar directorios de dependencias y entornos virtuales
+/node_modules/
+/venv/
+/.venv/
+
+# Ignorar archivos y directorios específicos de lenguajes y herramientas de programación
+# Ejemplo para Python
+__pycache__/
+*.pyc
+
+# Ejemplo para Java
+*.class
+
+# Ejemplo para C++
+*.o
+*.out
+
+# Ignorar archivos y directorios generados por IDEs y editores de texto
+# Ejemplo para Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Ejemplo para IntelliJ IDEA
+.idea/
+
+# Ignorar archivos y directorios generados por sistemas de compilación y construcción
+# Ejemplo para Maven
+/target/
+
+# Ejemplo para Gradle
+/build/
+
+# Ignorar archivos de configuración sensibles y secretos
+config.ini
+secrets.txt
+
+# Ignorar archivos generados por herramientas de documentación
+/docs/
+
+# Ignorar archivos binarios y archivos grandes que no deberían estar en el repositorio
+*.exe
+*.dll
+*.so
+*.a
+*.zip
+*.tar.gz
+
+# Ignorar archivos específicos
+filename.txt
+
+# Ignorar archivos con una extensión específica
+*.log
